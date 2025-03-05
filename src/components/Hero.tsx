@@ -71,8 +71,8 @@ const Hero = () => {
       {/* 3D Waves */}
       <ThreeDWaves />
       
-      {/* Video preview section */}
-      <div className="relative z-10 w-full max-w-4xl mx-auto mt-20 opacity-0 animate-fade-in" style={{ animationDelay: '1.2s' }}>
+      {/* Video preview section - REDUCED SIZE */}
+      <div className="relative z-10 w-full max-w-3xl mx-auto mt-16 opacity-0 animate-fade-in" style={{ animationDelay: '1.2s' }}>
         <div className="aspect-w-16 aspect-h-9 rounded-2xl overflow-hidden card-glass p-2">
           <img 
             src="https://img1.wsimg.com/isteam/ip/9fd6d942-5b46-4025-92e2-0f1ec2a7adf2/a-photo-of-a-futuristic-setting-where-a-_3Mwmg.png/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:1200,cg:true" 
