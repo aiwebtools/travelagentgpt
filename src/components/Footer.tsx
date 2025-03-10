@@ -1,5 +1,5 @@
 
-import { ExternalLink, Mail, Phone } from 'lucide-react';
+import { ExternalLink, Mail, Phone, Plane } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -15,7 +15,7 @@ const Footer = () => {
               rel="noopener noreferrer"
             >
               <div className="w-10 h-10 rounded-full bg-ocean flex items-center justify-center">
-                <span className="text-white font-bold text-lg">T</span>
+                <Plane size={20} className="text-white" />
               </div>
               <div>
                 <h3 className="font-bold text-lg text-white">Travel Agent GPT</h3>

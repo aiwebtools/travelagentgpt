@@ -1,6 +1,6 @@
 
 import { useState, useEffect } from 'react';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, Plane } from 'lucide-react';
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -20,7 +20,7 @@ const Header = () => {
       <div className="container mx-auto px-4 md:px-6 flex justify-between items-center">
         <a href="https://chatgpt.com/g/g-ALS0tTWJO-travel-agent-gpt" className="flex items-center space-x-2" target="_blank" rel="noopener noreferrer">
           <div className="w-10 h-10 rounded-full bg-ocean flex items-center justify-center">
-            <span className="text-white font-bold text-lg">T</span>
+            <Plane size={20} className="text-white" />
           </div>
           <div>
             <h1 className="font-bold text-xl text-white">Travel Agent GPT</h1>
