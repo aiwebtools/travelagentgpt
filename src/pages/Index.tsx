@@ -8,6 +8,7 @@ import Testimonials from "../components/Testimonials";
 import FAQ from "../components/FAQ";
 import Disclaimer from "../components/Disclaimer";
 import Footer from "../components/Footer";
+import DisclaimerPopup from "../components/DisclaimerPopup";
 
 const Index = () => {
   useEffect(() => {
@@ -37,6 +38,7 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-dark text-white overflow-x-hidden">
+      <DisclaimerPopup />
       <Header />
       <Hero />
       <Features />
