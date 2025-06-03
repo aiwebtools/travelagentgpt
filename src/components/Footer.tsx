@@ -13,6 +13,7 @@ const Footer = () => {
               className="flex items-center space-x-2 mb-4"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Travel Agent GPT - Free AI Travel Planning Tool"
             >
               <div className="w-10 h-10 rounded-full bg-ocean flex items-center justify-center">
                 <Plane size={20} className="text-white" />
@@ -23,7 +24,7 @@ const Footer = () => {
             </a>
             
             <p className="text-white/70 text-sm mb-4">
-              Your AI travel companion from planning to vacation and beyond
+              Your free AI travel companion from planning to vacation and beyond. Powered by AI Web Tools.
             </p>
             
             <a 
@@ -31,15 +32,16 @@ const Footer = () => {
               className="inline-flex items-center text-sm text-ocean hover:text-ocean-light transition-colors duration-200"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Explore more free AI tools at AI Web Tools"
             >
-              <span>More AI Tools</span>
+              <span>More Free AI Tools</span>
               <ExternalLink size={14} className="ml-1" />
             </a>
           </div>
           
-          {/* Column 2 - Links */}
+          {/* Column 2 - AI Tools Links */}
           <div className="md:col-span-1">
-            <h3 className="text-white font-medium mb-4">Links</h3>
+            <h3 className="text-white font-medium mb-4">Free AI Tools</h3>
             <ul className="space-y-2">
               <li>
                 <a 
@@ -47,6 +49,7 @@ const Footer = () => {
                   className="text-white/70 hover:text-white text-sm transition-colors duration-200"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="Travel Agent GPT - AI Travel Planning Tool"
                 >
                   Travel Agent GPT
                 </a>
@@ -55,6 +58,7 @@ const Footer = () => {
                 <a 
                   href="#faq" 
                   className="text-white/70 hover:text-white text-sm transition-colors duration-200"
+                  aria-label="Frequently Asked Questions about our AI travel tool"
                 >
                   FAQ
                 </a>
@@ -63,6 +67,7 @@ const Footer = () => {
                 <a 
                   href="#disclaimer" 
                   className="text-white/70 hover:text-white text-sm transition-colors duration-200"
+                  aria-label="Disclaimer for AI Web Tools services"
                 >
                   Disclaimer
                 </a>
@@ -73,8 +78,9 @@ const Footer = () => {
                   className="text-white/70 hover:text-white text-sm transition-colors duration-200"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="AI Web Tools - Collection of Free AI Tools"
                 >
-                  More AI Tools
+                  All AI Web Tools
                 </a>
               </li>
             </ul>
@@ -82,7 +88,7 @@ const Footer = () => {
           
           {/* Column 3 - Legal */}
           <div className="md:col-span-1">
-            <h3 className="text-white font-medium mb-4">Legal</h3>
+            <h3 className="text-white font-medium mb-4">Legal & Support</h3>
             <ul className="space-y-2">
               <li>
                 <a 
@@ -90,6 +96,7 @@ const Footer = () => {
                   className="text-white/70 hover:text-white text-sm transition-colors duration-200"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="Privacy Policy for AI Web Tools"
                 >
                   Privacy Policy
                 </a>
@@ -100,6 +107,7 @@ const Footer = () => {
                   className="text-white/70 hover:text-white text-sm transition-colors duration-200"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="Terms of Service for AI Web Tools"
                 >
                   Terms of Service
                 </a>
@@ -109,12 +117,13 @@ const Footer = () => {
           
           {/* Column 4 - Contact */}
           <div className="md:col-span-1">
-            <h3 className="text-white font-medium mb-4">Contact</h3>
+            <h3 className="text-white font-medium mb-4">Contact AI Web Tools</h3>
             <ul className="space-y-3">
               <li>
                 <a 
                   href="tel:4758008096" 
                   className="text-white/70 hover:text-white text-sm transition-colors duration-200 flex items-center"
+                  aria-label="Call AI Web Tools support"
                 >
                   <Phone size={16} className="mr-2 text-ocean" />
                   (475) 800-8096
@@ -124,6 +133,7 @@ const Footer = () => {
                 <a 
                   href="mailto:Contact@ai-webtools.com" 
                   className="text-white/70 hover:text-white text-sm transition-colors duration-200 flex items-center"
+                  aria-label="Email AI Web Tools support"
                 >
                   <Mail size={16} className="mr-2 text-ocean" />
                   Contact@ai-webtools.com
@@ -140,8 +150,9 @@ const Footer = () => {
             className="bg-ocean hover:bg-ocean-dark text-white font-medium px-6 py-3 rounded-full transition-all duration-300 inline-flex items-center"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Discover more free AI tools at AI Web Tools"
           >
-            More AI Tools
+            More Free AI Tools
           </a>
         </div>
         
@@ -152,8 +163,9 @@ const Footer = () => {
             className="hover:text-white transition-colors duration-200"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="AI Web Tools LLC - Free AI Tools Provider"
           >
-            © 2025 AI WEB TOOLS LLC All rights reserved.
+            © 2025 AI WEB TOOLS LLC - Free AI Tools for Everyone. All rights reserved.
           </a>
         </div>
       </div>
