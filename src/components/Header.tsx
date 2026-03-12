@@ -39,7 +39,7 @@ const Header = () => {
           <a href="#disclaimer" className="nav-link">
             Disclaimer
           </a>
-          <a href="https://www.aiwebtools.ai" className="nav-link" target="_blank" rel="noopener noreferrer">
+          <a href="https://aiwebtools.lovable.app/?via=aiwebtools" className="nav-link" target="_blank" rel="noopener noreferrer">
             More AI Tools
           </a>
           <a href="https://chatgpt.com/g/g-ALS0tTWJO-travel-agent-gpt" className="btn-primary ml-4" target="_blank" rel="noopener noreferrer">
