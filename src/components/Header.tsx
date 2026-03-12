@@ -39,7 +39,7 @@ const Header = () => {
           <a href="#disclaimer" className="nav-link">
             Disclaimer
           </a>
-          <a href="https://www.aiwebtools.ai" className="nav-link" target="_blank" rel="noopener noreferrer">
+          <a href="https://aiwebtools.lovable.app/?via=aiwebtools" className="nav-link" target="_blank" rel="noopener noreferrer">
             More AI Tools
           </a>
           <a href="https://chatgpt.com/g/g-ALS0tTWJO-travel-agent-gpt" className="btn-primary ml-4" target="_blank" rel="noopener noreferrer">
@@ -57,8 +57,8 @@ const Header = () => {
       </div>
       
       {/* Mobile Navigation */}
-      {mobileMenuOpen && (
-        <nav className="md:hidden bg-dark-light/95 backdrop-blur-lg py-4 px-6 flex flex-col space-y-4 animate-fade-in">
+      <div className={`md:hidden overflow-hidden transition-all duration-300 ease-in-out ${mobileMenuOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'}`}>
+        <nav className="bg-dark-light/95 backdrop-blur-lg py-4 px-6 flex flex-col space-y-4">
           <a 
             href="https://chatgpt.com/g/g-ALS0tTWJO-travel-agent-gpt" 
             className="text-white py-2 border-b border-white/10"
@@ -83,7 +83,7 @@ const Header = () => {
             Disclaimer
           </a>
           <a 
-            href="https://www.aiwebtools.ai" 
+            href="https://aiwebtools.lovable.app/?via=aiwebtools" 
             className="text-white py-2"
             target="_blank"
             rel="noopener noreferrer"
@@ -101,7 +101,7 @@ const Header = () => {
             Try Now
           </a>
         </nav>
-      )}
+      </div>
     </header>
   );
 };

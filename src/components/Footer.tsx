@@ -28,7 +28,7 @@ const Footer = () => {
             </p>
             
             <a 
-              href="https://www.aiwebtools.ai" 
+              href="https://aiwebtools.lovable.app/?via=aiwebtools" 
               className="inline-flex items-center text-sm text-ocean hover:text-ocean-light transition-colors duration-200"
               target="_blank"
               rel="noopener noreferrer"
@@ -74,7 +74,7 @@ const Footer = () => {
               </li>
               <li>
                 <a 
-                  href="https://www.aiwebtools.ai" 
+                  href="https://aiwebtools.lovable.app/?via=aiwebtools" 
                   className="text-white/70 hover:text-white text-sm transition-colors duration-200"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -103,7 +103,7 @@ const Footer = () => {
               </li>
               <li>
                 <a 
-                  href="https://aiwebtools.ai/terms-of-services" 
+                  href="https://aiwebtools.lovable.app/?via=aiwebtools" 
                   className="text-white/70 hover:text-white text-sm transition-colors duration-200"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -146,7 +146,7 @@ const Footer = () => {
         {/* More AI Tools Button */}
         <div className="flex justify-end mt-12">
           <a 
-            href="https://www.aiwebtools.ai" 
+            href="https://aiwebtools.lovable.app/?via=aiwebtools" 
             className="bg-ocean hover:bg-ocean-dark text-white font-medium px-6 py-3 rounded-full transition-all duration-300 inline-flex items-center"
             target="_blank"
             rel="noopener noreferrer"
@@ -159,7 +159,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="border-t border-white/10 mt-12 pt-8 text-center text-white/50 text-sm">
           <a 
-            href="https://www.aiwebtools.ai" 
+            href="https://aiwebtools.lovable.app/?via=aiwebtools" 
             className="hover:text-white transition-colors duration-200"
             target="_blank"
             rel="noopener noreferrer"
