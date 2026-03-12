@@ -101,7 +101,7 @@ const Header = () => {
             Try Now
           </a>
         </nav>
-      )}
+      </div>
     </header>
   );
 };

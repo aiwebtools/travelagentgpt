@@ -159,7 +159,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="border-t border-white/10 mt-12 pt-8 text-center text-white/50 text-sm">
           <a 
-            href="https://www.aiwebtools.ai" 
+            href="https://aiwebtools.lovable.app/?via=aiwebtools" 
             className="hover:text-white transition-colors duration-200"
             target="_blank"
             rel="noopener noreferrer"
