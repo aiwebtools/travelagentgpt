@@ -28,7 +28,7 @@ const Footer = () => {
             </p>
             
             <a 
-              href="https://www.aiwebtools.ai" 
+              href="https://aiwebtools.lovable.app/?via=aiwebtools" 
               className="inline-flex items-center text-sm text-ocean hover:text-ocean-light transition-colors duration-200"
               target="_blank"
               rel="noopener noreferrer"
