@@ -57,8 +57,8 @@ const Header = () => {
       </div>
       
       {/* Mobile Navigation */}
-      {mobileMenuOpen && (
-        <nav className="md:hidden bg-dark-light/95 backdrop-blur-lg py-4 px-6 flex flex-col space-y-4 animate-fade-in">
+      <div className={`md:hidden overflow-hidden transition-all duration-300 ease-in-out ${mobileMenuOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'}`}>
+        <nav className="bg-dark-light/95 backdrop-blur-lg py-4 px-6 flex flex-col space-y-4">
           <a 
             href="https://chatgpt.com/g/g-ALS0tTWJO-travel-agent-gpt" 
             className="text-white py-2 border-b border-white/10"
